@@ -1,0 +1,36 @@
+p{
+    color:green;
+    font-family: Arial;
+    font-size: 20;
+    font-weight: bold;
+}
+
+h1{
+    color:#0000ff;
+    font-size:50px;
+}
+
+.caja{
+    width: 300px;
+    padding: 150px;
+    border: 50px solid black;
+    margin: 20px;
+}
+
+.destacado{
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.lista{
+    background-color: #5d6ecd;
+    border: 5px solid #333;
+    border-radius: 10px;  
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
