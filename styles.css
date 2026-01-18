@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+}
+
+
+.header {
+  background: #0D652D;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  background: #333;
+  padding: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #0D652D;
+}
+
+.container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+  text-align: center;
+    margin-bottom: 1rem;
+    color: #0D652D;
+}
+
+.proyectos {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.proyectos-container {
+    display: flex;
+    gap: 20px;
+}
+
+.proyecto-card{
+    background: #f4f4f4;
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 2px 5px rgbs(0,0,0,0,0.1);
+}
+
+.proyecto-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.proyecto-card h3 {
+  margin: 1rem;
+  color: #333;
+}
+
+.proyecto-card p {
+  margin: 0 1rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+/**SECCION DE CONTACTO**/
+.formulario-contacto {
+  max-width: 500px;
+  margin: auto;
+  background: #1f1f1f;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+.form-div {
+  margin-bottom: 1rem;
+}
+
+.form-div label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-div input,
+.form-div textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+}
+
+.form-div input:focus,
+.form-div textarea:focus {
+  outline: 2px solid #0D652D;
+}
+
+button {
+  width: 100%;
+  padding: 0.7rem;
+  background: #0D652D;
+  border: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #fff;
+  color: #0D652D;
+}

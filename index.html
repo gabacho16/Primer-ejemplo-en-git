@@ -1,31 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title> José Gabriel Ley Muñoz </title>
-    <link rel = "stylesheet" href = "Styles.css">
+    <meta charset="UTF-8">
+    <title>EcoVida</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body> 
-    <img src = "Yo.jpeg">
-    <p>Soy una persona tranquila, proactiva, me gusta estar en paz y salir a cualquier lado cuando puedo o tengo ganas.</p>
-    <p class="destacado">Hoy aprendi a usar CSS y ayer HTML</p>
-    <div class ="lista">
-        <h1>Hobbies/Intereses</h1>
-            <ul>
-            <li>Futbol</li>
-            <li>Jugar con cartas</li>
-            <li>Programar a veces</li>
-            <li>Estudiar</li>
-            <li>Me gusta mucho la musica de cualquier tipo</li>
-            <li>Me gusta salir</li>
-        </ul>
-    </div>
-
-    <h2>Mis materias favoritas</h2>
-    <ol>
-        <li>Desarrollo Full Stack</li>
-        <li>Bases de datos</li>
-        <li>Fundamentos de programación</li>
-    </ol>
-    <a href = "https://www.youtube.com/">Visitar sitio</a>
+<body>
+  <header class="header">
+    <h1>EcoVida</h1>
+    <p>Energía limpia para un futuro sostenible</p>
+  </header>
+  <nav class="nav">
+    <a href="#nosotros">Nosotros</a>
+    <a href="#servicios">Proyectos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <main class="container">
+    <section id="nosotros">
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            EcoVida Servicios Ambientales es una empresa dedicada a brindar soluciones ecológicas para hogares y empresas. 
+            Su objetivo principal es ayudar a reducir el impacto ambiental mediante servicios de reciclaje, gestión de residuos y asesoría en prácticas sostenibles.
+        </p>
+    </section>
+    <section id="proyectos">
+        <h2>Nuestros proyectos realizados</h2>
+        <div class="proyectos-container">
+            <div class="proyecto-card">
+                <img src="./images/Recoleccion.jpg" alt="">
+                <h3>Recolección y reciclaje de residuos</h3>
+                <p>
+                Este servicio consiste en la recolección responsable de residuos sólidos reciclables como papel, cartón, plástico, vidrio y metal.
+                </p>
+            </div>
+            <div class="proyecto-card">
+                <img src="./images/Asesoria.jpg" alt="">
+                <h3>Asesoría ambiental para empresas</h3>
+                <p>
+                EcoVida ofrece asesoramiento especializado a empresas que desean implementar prácticas sostenibles
+                </p>
+            </div>
+            <div class="proyecto-card">
+                <img src="./images/programa.jpg" alt="">
+                <h3>Programas de educación ecológica</h3>
+                <p>
+                Este sera concientización ambiental mediante talleres, charlas y capacitaciones. 
+                Está dirigido a escuelas, empresas y comunidades, con el objetivo de fomenvicio está enfocado en ltar hábitos responsables, promover el reciclaje y generar una cultura de respeto hacia el medio ambiente.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form class="formulario-contacto">
+            <div class="form-div">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
+            <div class="form-div">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Tu email" required>
+            </div>
+            <div class="form-div">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+  </main>
+  <footer>
+    <h2>Contactanos</h2>
+    <p>     Instagram</p>
+    <p>     Youtube</p>
+    <p>     Facebook</p>
+    <p>     Copyright</p>
+  </footer>
 </body>
 </html>
